@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+  margin: 0;
+  padding:0;
+}
+:root{
+--Green: hsl(75, 94%, 57%);
+--White: hsl(0, 0%, 100%);
+--Grey800: hsl(0, 0%, 12%);
+--Grey700: hsl(0, 0%, 20%);
+--Grey900: hsl(0, 0%, 8%);
+}
+body{
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Grey900);
+  display: flex;
+}
+
+.container {
+  max-width: 380px;
+  width: 100%;
+  background-color: var(--Grey800);
+  padding: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: var(--White);
+  align-items: center;
+  border-radius: 10px;
+}
+
+.container img{
+  border-radius: 100%;
+  width: 110px;
+}
+
+.container .content{
+  font-family: 'Inter', sans-serif;
+  padding: 1rem;
+}
+.name{
+  font-size: 20px;
+  color: var(--White);
+  font-weight: 600;
+  padding: 0.9rem;
+}
+
+.location {
+  color: var(--Green);
+  font-weight: 600;
+  font-size: 13px;
+  padding-bottom: 2rem;
+}
+
+.bio{
+  font-size: 13px;
+  color: var(--White);
+}
+.links{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+}
+.links a {
+  display: inline-block;
+  background-color: var(--Grey700);
+  border:none;
+  width: 300px;
+  text-align: center;
+  padding: 20px 48px;
+  text-decoration: none;
+  color: white;
+  margin: 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 18px;
+}
+
+
+
